@@ -10,6 +10,7 @@ import { BenelliComponent } from './pages/benelli/benelli.component';
 import { KtmComponent } from './pages/ktm/ktm.component';
 import { KawasakiComponent } from './pages/kawasaki/kawasaki.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { NgxSplideModule } from 'ngx-splide';
 
 @NgModule({
   declarations: [
@@ -20,13 +21,10 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
     BenelliComponent,
     KtmComponent,
     KawasakiComponent,
-    NotFoundComponent
+    NotFoundComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, NgxSplideModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

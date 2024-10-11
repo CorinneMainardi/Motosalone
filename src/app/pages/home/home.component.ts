@@ -11,6 +11,8 @@ export class HomeComponent implements OnInit {
   motorsBenelli!: IMotors[];
   motorsKtm!: IMotors[];
   motorsKawasaki!: IMotors[];
+  motors!: IMotors[];
+  images: { src: string }[] = [];
 
   ngOnInit(): void {
     fetch('db.json')
@@ -41,7 +43,7 @@ export class HomeComponent implements OnInit {
           }
           return array;
         };
-        this.motorsKtm = shuffleBenelli(this.motorsKtm);
+        this.motorsKtm = shuffleKtm(this.motorsKtm);
         this.motorsKawasaki = res.filter(
           (moto: IMotors) => moto.brand === 'kawasaki'
         );
@@ -50,12 +52,20 @@ export class HomeComponent implements OnInit {
             const j = Math.floor(Math.random() * (i + 1));
             [array[i], array[j]] = [array[j], array[i]];
           }
+
           return array;
         };
-        this.motorsKawasaki = shuffleBenelli(this.motorsKawasaki);
+        this.motorsKawasaki = shuffleKawasaki(this.motorsKawasaki);
+        this.motors = [
+          ...this.motorsBenelli,
+          ...this.motorsKtm,
+          ...this.motorsKawasaki,
+        ];
+        this.images = this.motors.map((moto) => ({ src: moto.modelImage }));
       })
+
       .catch((err) => {
-        console.log('ERRORE');
+        console.log(err);
       });
   }
 }

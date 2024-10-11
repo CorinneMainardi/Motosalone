@@ -1,6 +1,20 @@
 <main>
   <h1>Motorccl Doaine: senti l'emozione ad ogni curva.</h1>
-  <section></section>
+  <section>
+    <splide
+      [options]="{
+        type: 'loop',
+        perPage: 3,
+        gap: '1rem',
+        pagination: false,
+        arrows: true
+      }"
+    >
+      <splide-slide *ngFor="let image of images">
+        <img id=" carousel" [src]="image.src" alt="" />
+      </splide-slide>
+    </splide>
+  </section>
   <!--carosello-->
   <section>
     <div class="container">
