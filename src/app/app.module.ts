@@ -11,7 +11,6 @@ import { KtmComponent } from './pages/ktm/ktm.component';
 import { KawasakiComponent } from './pages/kawasaki/kawasaki.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { NgxSplideModule } from 'ngx-splide';
-import { AlertModule } from '@coreui/angular';
 
 @NgModule({
   declarations: [
@@ -24,7 +23,7 @@ import { AlertModule } from '@coreui/angular';
     KawasakiComponent,
     NotFoundComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, NgxSplideModule, AlertModule],
+  imports: [BrowserModule, AppRoutingModule, NgxSplideModule],
   providers: [],
   bootstrap: [AppComponent],
 })
