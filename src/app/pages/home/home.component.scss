@@ -1,0 +1,40 @@
+h1 {
+  text-align: center;
+}
+img {
+  width: 300px;
+}
+button > img {
+  width: 50px;
+}
+.unavailable {
+  background-color: #ff999a;
+}
+.available {
+  background-color: #c2e2bc;
+}
+.cross {
+  color: red;
+  font-size: 30px;
+}
+.check {
+  color: green;
+  font-size: 30px;
+}
+main {
+  background-image: linear-gradient(
+    to right,
+    #f9db2c,
+    #fac61f,
+    #fab217,
+    #f79d17,
+    #f3881b,
+    #f07a1e,
+    #ec6c22,
+    #e85e26,
+    #e55329,
+    #e2482b,
+    #df3b2e,
+    #db2d31
+  );
+}

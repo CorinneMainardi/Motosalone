@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="row d-flex align-items-stretch">
+    <ng-container *ngFor="let moto of kawasakiArr">
+      <div class="col-12 col_md-4">
+        <div
+          class="card d-flex flex-column"
+          [ngClass]="moto.available ? 'available' : 'unavailable'"
+        >
+          <img
+            [src]="moto.modelImage"
+            class="card-img-top"
+            alt="{{ moto.model }}"
+          />
+          <div class="card-body">
+            <h5 class="card-title">{{ moto.model }}</h5>
+            <p class="card-text">{{ moto.year }}</p>
+            <p class="card-text">{{ moto.price | currency : "EUR" }}</p>
+            <p class="card-text">
+              @if(moto.available){
+              <span>Disponibile ora <i class="check bi bi-check-lg"></i></span>
+              } @else{<span>
+                Non disponibile al momento
+                <i class="cross bi bi-x-circle"></i>
+              </span>
+              }
+            </p>
+          </div>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+</div>

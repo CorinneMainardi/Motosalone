@@ -1,0 +1,112 @@
+[
+  {
+    "brand": "benelli",
+    "brandLogo": "https://bmroma.com/cdn/shop/files/BENELLI-BOCCEAMOTOROMA_1280_x_1280_px.png?v=1710977552&width=180",
+    "model": "BN 125",
+    "modelImage": "https://bmroma.com/cdn/shop/files/bn-125-850749.jpg?v=1714408730&width=1800",
+    "year": 2023,
+    "price": 2690,
+    "available": true
+  },
+  {
+    "brand": "benelli",
+    "brandLogo": "https://bmroma.com/cdn/shop/files/BENELLI-BOCCEAMOTOROMA_1280_x_1280_px.png?v=1710977552&width=180",
+    "model": "Leoncino 125",
+    "modelImage": "https://bmroma.com/cdn/shop/files/leoncino-125-853113.jpg?v=1714408748&width=1800",
+    "year": 2023,
+    "price": 2990,
+    "available": false
+  },
+
+  {
+    "brand": "benelli",
+    "brandLogo": "https://bmroma.com/cdn/shop/files/BENELLI-BOCCEAMOTOROMA_1280_x_1280_px.png?v=1710977552&width=180",
+    "model": "TRK 702",
+    "modelImage": "https://bmroma.com/cdn/shop/files/trk-702-713209.jpg?v=1714408805&width=1800",
+    "year": 2024,
+    "price": 7490,
+    "available": true
+  },
+  {
+    "brand": "benelli",
+    "brandLogo": "https://bmroma.com/cdn/shop/files/BENELLI-BOCCEAMOTOROMA_1280_x_1280_px.png?v=1710977552&width=180",
+    "model": " 502 C",
+    "modelImage": "https://bmroma.com/cdn/shop/files/502-c-935650.jpg?v=1714408725&width=1800",
+    "year": 2022,
+    "price": 5990,
+    "available": false
+  },
+  {
+    "brand": "ktm",
+    "brandLogo": "https://www.ktm-motorcycles.hr/storage/backend/reviews/KTM-cover_ZYXP2_1708516845.jpg",
+    "model": "Super Duke GT 129",
+    "modelImage": "https://azwecdnepstoragewebsiteuploads.azureedge.net/PHO_BIKE_90_RE_1290-SuperDuke-GT-MY23-orange-90-right_%23SALL_%23AEPI_%23V1.png",
+    "year": 2024,
+    "price": 22930,
+    "available": true
+  },
+  {
+    "brand": "ktm",
+    "brandLogo": "https://www.ktm-motorcycles.hr/storage/backend/reviews/KTM-cover_ZYXP2_1708516845.jpg",
+    "model": "Duke 790",
+    "modelImage": "https://azwecdnepstoragewebsiteuploads.azureedge.net/PHO_BIKE_90_RE_ktm-790-duke-my23-90-right_%23SALL_%23AEPI_%23V1.png",
+    "year": 2024,
+    "price": 9230,
+    "available": false
+  },
+
+  {
+    "brand": "ktm",
+    "brandLogo": "https://www.ktm-motorcycles.hr/storage/backend/reviews/KTM-cover_ZYXP2_1708516845.jpg",
+    "model": "Duke 390",
+    "modelImage": "https://azwecdnepstoragewebsiteuploads.azureedge.net/PHO_BIKE_90_RE_MY24-KTM-390-DUKE-BLUE-90-RIGHT_%23SALL_%23AEPI_%23V1.png",
+    "year": 2024,
+    "price": 6780,
+    "available": true
+  },
+  {
+    "brand": "ktm",
+    "brandLogo": "https://www.ktm-motorcycles.hr/storage/backend/reviews/KTM-cover_ZYXP2_1708516845.jpg",
+    "model": " Duke 125",
+    "modelImage": "https://azwecdnepstoragewebsiteuploads.azureedge.net/PHO_BIKE_90_RE_MY24-KTM-125-DUKE-blue-90-RIGHT-2_%23SALL_%23AEPI_%23V1.png",
+    "year": 2022,
+    "price": 5730,
+    "available": false
+  },
+  {
+    "brand": "kawasaki",
+    "brandLogo": "https://cdn-img.moto.it/images/26004928/1200x/20211006-111035633-6424.jpeg",
+    "model": " Ninja 500 se",
+    "modelImage": "https://bmroma.com/cdn/shop/files/ninja-500-se-614823.jpg?v=1714408762&width=1800",
+    "year": 2024,
+    "price": 6990,
+    "available": true
+  },
+  {
+    "brand": "kawasaki",
+    "brandLogo": "https://cdn-img.moto.it/images/26004928/1200x/20211006-111035633-6424.jpeg",
+    "model": " Eliminator 500",
+    "modelImage": "https://bmroma.com/cdn/shop/files/eliminator-500-867243.jpg?v=1714408731&width=1800",
+    "year": 2023,
+    "price": 6490,
+    "available": false
+  },
+  {
+    "brand": "kawasaki",
+    "brandLogo": "https://cdn-img.moto.it/images/26004928/1200x/20211006-111035633-6424.jpeg",
+    "model": " Ninja 7 hybrid",
+    "modelImage": "https://bmroma.com/cdn/shop/files/ninja-7-hybrid-424192.jpg?v=1714408761&width=1800",
+    "year": 2023,
+    "price": 9995,
+    "available": false
+  },
+  {
+    "brand": "kawasaki",
+    "brandLogo": "https://cdn-img.moto.it/images/26004928/1200x/20211006-111035633-6424.jpeg",
+    "model": " Ninja h2 sx se",
+    "modelImage": "https://bmroma.com/cdn/shop/files/ninja-h2-sx-se-725258.jpg?v=1714408764&width=1800",
+    "year": 2024,
+    "price": 29690,
+    "available": true
+  }
+]

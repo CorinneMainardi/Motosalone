@@ -1,0 +1,133 @@
+<main>
+  <h1>Motorccl Doaine: senti l'emozione ad ogni curva.</h1>
+  <section></section>
+  <!--carosello-->
+  <section>
+    <div class="container">
+      <div class="row">
+        <!-- Benelli Card -->
+        @if(motorsBenelli){
+        <div class="col-12 col-md-4">
+          <div
+            class="card d-flex flex-column"
+            [ngClass]="motorsBenelli[0].available ? 'available' : 'unavailable'"
+          >
+            <img
+              [src]="motorsBenelli[0].modelImage"
+              class="card-img-top"
+              alt="{{ motorsBenelli[0].model }}"
+            />
+            <div class="card-body">
+              <h5 class="card-title">{{ motorsBenelli[0].model }}</h5>
+              <p class="card-text">{{ motorsBenelli[0].year }}</p>
+              <p class="card-text">
+                {{ motorsBenelli[0].price | currency : "EUR" }}
+              </p>
+              <p class="card-text">
+                @if(motorsBenelli[0].available){
+                <span
+                  >Disponibile ora <i class="check bi bi-check-lg"></i
+                ></span>
+                } @else{<span>
+                  Non disponibile al momento
+                  <i class="cross bi bi-x-circle"></i>
+                </span>
+                }
+              </p>
+              <button routerLink="/benelli">
+                Scopri il brand Benelli
+                <img
+                  [src]="motorsBenelli[0].brandLogo"
+                  alt="{{ motorsBenelli[0].brandLogo }}"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        }
+        <!-- Kawasaki Card -->
+        @if(motorsKawasaki){
+        <div class="col-12 col-md-4">
+          <div
+            class="card d-flex flex-column"
+            [ngClass]="
+              motorsKawasaki[0].available ? 'available' : 'unavailable'
+            "
+          >
+            <img
+              [src]="motorsKawasaki[0].modelImage"
+              class="card-img-top"
+              alt="{{ motorsKawasaki[0].model }}"
+            />
+            <div class="card-body">
+              <h5 class="card-title">{{ motorsKawasaki[0].model }}</h5>
+              <p class="card-text">{{ motorsKawasaki[0].year }}</p>
+              <p class="card-text">
+                {{ motorsKawasaki[0].price | currency : "EUR" }}
+              </p>
+              <p class="card-text">
+                @if(motorsKawasaki[0].available){
+                <span
+                  >Disponibile ora <i class="check bi bi-check-lg"></i
+                ></span>
+                } @else{<span>
+                  > Non disponibile al momento
+                  <i class="cross bi bi-x-circle"></i>
+                </span>
+                }
+              </p>
+              <button routerLink="/kawasaki">
+                Scopri il brand Kawasaki
+                <img
+                  [src]="motorsKawasaki[0].brandLogo"
+                  alt="{{ motorsKawasaki[0].brandLogo }}"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        }
+        <!-- KTM Card -->
+        @if(motorsKtm){
+        <div class="col-12 col-md-4">
+          <div
+            class="card d-flex flex-column"
+            [ngClass]="motorsKtm[0].available ? 'available' : 'unavailable'"
+          >
+            <img
+              [src]="motorsKtm[0].modelImage"
+              class="card-img-top"
+              alt="{{ motorsKtm[0].model }}"
+            />
+            <div class="card-body">
+              <h5 class="card-title">{{ motorsKtm[0].model }}</h5>
+              <p class="card-text">{{ motorsKtm[0].year }}</p>
+              <p class="card-text">
+                {{ motorsKtm[0].price | currency : "EUR" }}
+              </p>
+              <p class="card-text">
+                @if(motorsKtm[0].available){
+                <span
+                  >Disponibile ora <i class="check bi bi-check-lg"></i
+                ></span>
+                } @else{<span>
+                  Non disponibile al momento
+                  <i class="cross bi bi-x-circle"></i>
+                </span>
+                }
+              </p>
+              <button routerLink="/ktm">
+                Scopri il brand Ktm
+                <img
+                  [src]="motorsKtm[0].brandLogo"
+                  alt="{{ motorsKtm[0].brandLogo }}"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        }
+      </div>
+    </div>
+  </section>
+</main>
