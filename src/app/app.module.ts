@@ -11,6 +11,8 @@ import { KtmComponent } from './pages/ktm/ktm.component';
 import { KawasakiComponent } from './pages/kawasaki/kawasaki.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { NgxSplideModule } from 'ngx-splide';
+import { FormsModule } from '@angular/forms';
+import { DetailsComponent } from './pages/details/details.component';
 
 @NgModule({
   declarations: [
@@ -22,8 +24,9 @@ import { NgxSplideModule } from 'ngx-splide';
     KtmComponent,
     KawasakiComponent,
     NotFoundComponent,
+    DetailsComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, NgxSplideModule],
+  imports: [BrowserModule, AppRoutingModule, NgxSplideModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })

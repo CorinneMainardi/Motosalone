@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" routerLink="/"><img src="logo.jpeg" /></a>
+    <a class="navbar-brand ms-2" routerLink="/"><img src="logo.jpeg" /></a>
     <button
       class="navbar-toggler"
       type="button"
@@ -13,7 +13,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav mx-auto">
         <li class="nav-item">
           <a
             class="nav-link"
@@ -52,5 +52,17 @@
         </li>
       </ul>
     </div>
+    <form class="search d-flex ms-auto me-5" role="search">
+      <input
+        class="form-control me-2"
+        type="search"
+        placeholder="Search"
+        aria-label="Search"
+        [(ngModel)]="searchInput"
+        name="search"
+      />
+
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
   </div>
 </nav>
